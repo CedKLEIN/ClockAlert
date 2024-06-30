@@ -86,7 +86,10 @@ function App() {
   const handleDeleteAlarm = (id: number) => {
     invoke(removeAlarmCommand, { id })
     .then(() => {
-      handleStopAlarm();
+      if(id == activeAlarmId)
+      {
+        handleStopAlarm();
+      }
       fetchAlarms();
     })
     .catch((error) => console.error('Failed to remove alarm:', error));
