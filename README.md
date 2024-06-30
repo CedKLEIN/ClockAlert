@@ -65,9 +65,11 @@ To run tests, run the following command
 - Make the app async
 
 
-## Screenshots
+## Demo
 
-![Capture d'écran 2024-06-30 183815](https://github.com/CedKLEIN/ClockAlert/assets/66410614/0be61d3e-8be0-411d-9e37-7c8c0a87f6cc)
+https://github.com/CedKLEIN/ClockAlert/assets/66410614/61e5a31a-8571-4bda-9c9a-d3ff5fb76636
+
+
 
 
 ## 🔗 References
